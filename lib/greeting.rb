@@ -4,4 +4,5 @@ def greeting(name)
 end
 
 puts "Please enter your name!"
-greeting(gets.chomp)
+tmpName = gets.chomp
+greeting(tmpName)
